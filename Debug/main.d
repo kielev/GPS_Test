@@ -3,22 +3,22 @@
 main.obj: ../main.c
 main.obj: C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/driverlib.h
 main.obj: C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/adc14.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdint.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/stdint.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/cdefs.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_types.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_types.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_stdint.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_stdint.h
-main.obj: C:/ti/ccsv8/ccs_base/arm/include/msp.h
-main.obj: C:/ti/ccsv8/ccs_base/arm/include/msp432p401r.h
-main.obj: C:/ti/ccsv8/ccs_base/arm/include/msp_compatibility.h
-main.obj: C:/ti/ccsv8/ccs_base/arm/include/msp432p401r_classic.h
-main.obj: C:/ti/ccsv8/ccs_base/arm/include/CMSIS/core_cm4.h
-main.obj: C:/ti/ccsv8/ccs_base/arm/include/CMSIS/cmsis_compiler.h
-main.obj: C:/ti/ccsv8/ccs_base/arm/include/CMSIS/cmsis_ccs.h
-main.obj: C:/ti/ccsv8/ccs_base/arm/include/system_msp432p401r.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdbool.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdint.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/stdint.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/cdefs.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_types.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_types.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_stdint.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_stdint.h
+main.obj: C:/ti/ccsv7/ccs_base/arm/include/msp.h
+main.obj: C:/ti/ccsv7/ccs_base/arm/include/msp432p401r.h
+main.obj: C:/ti/ccsv7/ccs_base/arm/include/msp_compatibility.h
+main.obj: C:/ti/ccsv7/ccs_base/arm/include/CMSIS/cmsis_ccs.h
+main.obj: C:/ti/ccsv7/ccs_base/arm/include/msp432p401r_classic.h
+main.obj: C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h
+main.obj: C:/ti/ccsv7/ccs_base/arm/include/CMSIS/cmsis_compiler.h
+main.obj: C:/ti/ccsv7/ccs_base/arm/include/system_msp432p401r.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdbool.h
 main.obj: C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/aes256.h
 main.obj: C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/comp_e.h
 main.obj: C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/cpu.h
@@ -47,6 +47,7 @@ main.obj: C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/timer32
 main.obj: C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/timer_a.h
 main.obj: C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/uart.h
 main.obj: C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/wdt_a.h
+<<<<<<< Updated upstream
 main.obj: C:/ti/ccsv8/ccs_base/arm/include/msp432.h
 main.obj: ../GPS.h
 main.obj: ../PinSetup.h
@@ -55,26 +56,39 @@ main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/_ti_config.h
 main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/linkage.h
 main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdarg.h
 main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/string.h
+=======
+main.obj: C:/ti/ccsv7/ccs_base/arm/include/msp432.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/math.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/_ti_config.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/linkage.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/_defs.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_limits.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/string.h
+main.obj: ../GPS.h
+main.obj: ../PinSetup.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdio.h
+main.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdarg.h
+>>>>>>> Stashed changes
 
 ../main.c: 
 C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/driverlib.h: 
 C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/adc14.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/cdefs.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_types.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_types.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_stdint.h: 
-C:/ti/ccsv8/ccs_base/arm/include/msp.h: 
-C:/ti/ccsv8/ccs_base/arm/include/msp432p401r.h: 
-C:/ti/ccsv8/ccs_base/arm/include/msp_compatibility.h: 
-C:/ti/ccsv8/ccs_base/arm/include/msp432p401r_classic.h: 
-C:/ti/ccsv8/ccs_base/arm/include/CMSIS/core_cm4.h: 
-C:/ti/ccsv8/ccs_base/arm/include/CMSIS/cmsis_compiler.h: 
-C:/ti/ccsv8/ccs_base/arm/include/CMSIS/cmsis_ccs.h: 
-C:/ti/ccsv8/ccs_base/arm/include/system_msp432p401r.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdbool.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdint.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/stdint.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/cdefs.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_types.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_types.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_stdint.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_stdint.h: 
+C:/ti/ccsv7/ccs_base/arm/include/msp.h: 
+C:/ti/ccsv7/ccs_base/arm/include/msp432p401r.h: 
+C:/ti/ccsv7/ccs_base/arm/include/msp_compatibility.h: 
+C:/ti/ccsv7/ccs_base/arm/include/CMSIS/cmsis_ccs.h: 
+C:/ti/ccsv7/ccs_base/arm/include/msp432p401r_classic.h: 
+C:/ti/ccsv7/ccs_base/arm/include/CMSIS/core_cm4.h: 
+C:/ti/ccsv7/ccs_base/arm/include/CMSIS/cmsis_compiler.h: 
+C:/ti/ccsv7/ccs_base/arm/include/system_msp432p401r.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdbool.h: 
 C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/aes256.h: 
 C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/comp_e.h: 
 C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/cpu.h: 
@@ -103,6 +117,7 @@ C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/timer32.h:
 C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/timer_a.h: 
 C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/uart.h: 
 C:/ti/msp/MSP432Ware_3_50_00_02/driverlib/driverlib/MSP432P4xx/wdt_a.h: 
+<<<<<<< Updated upstream
 C:/ti/ccsv8/ccs_base/arm/include/msp432.h: 
 ../GPS.h: 
 ../PinSetup.h: 
@@ -111,3 +126,16 @@ C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/_ti_config.h:
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/linkage.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdarg.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/string.h: 
+=======
+C:/ti/ccsv7/ccs_base/arm/include/msp432.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/math.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/_ti_config.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/linkage.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/_defs.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_limits.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/string.h: 
+../GPS.h: 
+../PinSetup.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdio.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdarg.h: 
+>>>>>>> Stashed changes

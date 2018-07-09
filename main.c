@@ -14,6 +14,53 @@
 volatile _Bool NoFixFlag = 0; //In the event that the GPS did not get a fix within the alloted time, this flag is set to a 1.
 volatile _Bool GPSStringClassifyGo = 0;
 
+<<<<<<<
+
+=======
+//PC Hardwire Globals
+volatile char PCdataString[99]; //Puts the characters from the buffer into the string and increments so we can get more than one character
+//at a time and get a useful message
+volatile char PCString[99]; //Puts the raw string from the buffer into a new location for parsing. Gets updated when the PCdataString has a complete string.
+volatile int PCindex = 0; //Increments within the string and puts the characters in and increments to the next position
+volatile int PCflag = 0; //Used for when there has been the start character detected and the characters on the buffer are to be put into PCdataString
+volatile int PCStringExtractGo = 0; //When a complete string has been formed and needs to be parsed, this flag gets set.
+volatile _Bool USBPresentFlag = 0; //When the USB is connected, this flag is set and used within the code.
+volatile _Bool USBPresentOns = 1; //One shot to initialize the PC UART channel
+volatile _Bool MagnetRemovedFlag = 0; //Used for when the magnet has been removed and the "start up" procedure can take place.
+
+// PC GUI globals
+struct PC_Set_Time {
+    uint8_t hour;
+    uint8_t minute;
+    uint8_t second;
+    uint8_t month;
+    uint8_t day;
+    uint16_t year;
+} pc_set_time = {0,0,0,0,0,0};
+struct PC_GPS_Settings {
+    uint8_t num_hours;
+    uint8_t fix_quality;
+} pc_gps_settings = {0,0};
+struct PC_Sat_Settings {
+    uint8_t upload_day;
+    uint8_t hour_connect;
+    uint8_t am_pm;
+    uint8_t frequency;
+    uint8_t retries;
+} pc_sat_settings = {0,0,0,0,0};
+struct PC_VHF_Settings {
+    uint8_t start_hour;
+    uint8_t start_am_pm;
+    uint8_t end_hour;
+    uint8_t end_am_pm;
+} pc_vhf_settings = {0,0,0,0};
+int LED_STATE = 0;
+int LED_CHANGE = 0;
+
+volatile char PDOPString[6];
+
+
+>>>>>>>
 //UART ISR Globals
 volatile uint8_t RXData = 0; //These are where the characters obtained on the UART buffer for each channel are stored.
 volatile int index = 0;
