@@ -119,7 +119,7 @@ void disableGPSUART(void)
     MAP_GPIO_setAsOutputPin(GPIO_PORT_P3, GPIO_PIN2 | GPIO_PIN3);
 }
 
-void initPCUART(void)
+void initIridiumUART(void)
 {
 
     /* UART Configuration Parameter. These are the configuration parameters to
@@ -157,7 +157,7 @@ void initPCUART(void)
     MAP_Interrupt_disableInterrupt(INT_EUSCIA2);
 }
 
-void disablePCUART(void)
+void disableIridiumUART(void)
 {
     MAP_UART_disableModule(EUSCI_A0_BASE);
     MAP_Interrupt_disableInterrupt(INT_EUSCIA0);
@@ -167,7 +167,7 @@ void disablePCUART(void)
     MAP_GPIO_setOutputLowOnPin(GPIO_PORT_P1, GPIO_PIN2 | GPIO_PIN3);
 }
 
-void PC_puts(char *outString)
+void Iridium_puts(char *outString)
 {
   unsigned int i, len;
 

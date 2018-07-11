@@ -22,11 +22,11 @@ void initGPSUART(void);
 
 void disableGPSUART(void);
 
-void initPCUART(void);
+void initIridiumUART(void);
 
-void disablePCUART(void);
+void disableIridiumUART(void);
 
-void PC_puts(char *outString);
+void Iridium_puts(char *outString);
 
 void GPS_puts(char *outString);
 

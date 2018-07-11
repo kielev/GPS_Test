@@ -93,8 +93,8 @@ void ClassifyString(void)
 {
     /*if(NoFixFlag == 0){ //used to pass commands once at startup
         GPS_puts("$PMTK161,1*29\r\n");
-        GPS_puts("$PMTK103*30\r\n");
-        GPS_puts("$PMTK353,1,1,0,0,0*2B\r\n");
+        GPS_puts("$PMTK104*39\r\n");
+        GPS_puts("$PMTK353,1,1,0,0,*2B\r\n");
 
         NoFixFlag = 1;
     }*/
@@ -105,7 +105,6 @@ void ClassifyString(void)
 
 
 void main(void)
-
 {
     //Halting WDT
     MAP_WDT_A_holdTimer();
@@ -123,6 +122,7 @@ void main(void)
     MAP_Interrupt_enableMaster();
 
     while(1)
+        //GPS_puts("hello\n");
         if(GPSStringClassifyGo)
             ClassifyString();
 }
@@ -138,6 +138,7 @@ void EUSCIA2_IRQHandler(void)
     if (status & EUSCI_A_UART_RECEIVE_INTERRUPT_FLAG)
     {
         RXData = MAP_UART_receiveData(EUSCI_A2_BASE);
+        //printf("%c", RXData);
         switch (RXData)
         {
         case '\n': //looks for a new line character which is the end of the NMEA string
@@ -153,6 +154,5 @@ void EUSCIA2_IRQHandler(void)
             break;
         }
     }
-
 }
 

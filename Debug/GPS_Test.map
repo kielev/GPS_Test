@@ -1,11 +1,15 @@
 ******************************************************************************
                   TI ARM Linker PC v18.1.1                     
 ******************************************************************************
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 >> Linked Thu Jun 28 20:42:43 2018
 =======
 >> Linked Sun Jul  1 17:19:31 2018
 >>>>>>> Stashed changes
+=======
+>> Linked Tue Jul 10 14:46:06 2018
+>>>>>>> master
 
 OUTPUT FILE NAME:   <GPS_Test.out>
 ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 00003181
@@ -523,9 +527,12 @@ address   name
 00003001  HOSTunlink                        
 00002d41  HOSTwrite                         
 00000ba1  IOSetup                           
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+00000edf  Iridium_puts                      
+>>>>>>> master
 20000c4c  NoFixFlag                         
-00000edf  PC_puts                           
 20000c4e  RXData                            
 000034a1  SysCtl_disableNMISource           
 000034b1  SysCtl_enableNMISource            
@@ -697,8 +704,12 @@ ffffffff  binit
 0000342d  copysign                          
 0000342d  copysignl                         
 00000e03  disableGPSUART                    
+<<<<<<< HEAD
 00000ea7  disablePCUART                     
 <<<<<<< Updated upstream
+=======
+00000ea7  disableIridiumUART                
+>>>>>>> master
 20000c54  errno                             
 00002f2d  exit                              
 00003291  finddevice                        
@@ -728,7 +739,7 @@ ffffffff  binit
 000012f1  initClocks                        
 >>>>>>> Stashed changes
 00000d97  initGPSUART                       
-00000e3b  initPCUART                        
+00000e3b  initIridiumUART                   
 00000000  interruptVectors                  
 00001ea1  ldexp                             
 00001ea1  ldexpl                            
@@ -771,9 +782,9 @@ address   name
 00000ba1  IOSetup                           
 00000d97  initGPSUART                       
 00000e03  disableGPSUART                    
-00000e3b  initPCUART                        
-00000ea7  disablePCUART                     
-00000edf  PC_puts                           
+00000e3b  initIridiumUART                   
+00000ea7  disableIridiumUART                
+00000edf  Iridium_puts                      
 00000f1d  GPS_puts                          
 00000f81  SystemCoreClockUpdate             
 000011f5  SystemInit                        
